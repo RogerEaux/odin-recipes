@@ -4,10 +4,9 @@ body {
     margin: 0;
 }
 
-.container {
-    padding-left: 1rem;
-    font-size: 24px;
-    font-family: "Times New Roman", Times, sans-serif;
+img {
+    height: 250px;
+    width: auto;    
 }
 
 .title {
@@ -20,6 +19,12 @@ body {
     padding-bottom: 32px;
 }
 
+.container {
+    padding-left: 1rem;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, sans-serif;
+}
+
 .subtitle {
     background-color: #fffeeb;
     color: #f89603;
@@ -27,6 +32,8 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+
 
 .recipes {
     display: flex;
@@ -43,12 +50,6 @@ body {
     padding-bottom: 30px;
 }
 
-.recipe {
-    background-color: #f89603;
-    color: #fffeeb;
-    text-align: center;
-}
-
 .dish img,
 .box {
     background-color: #fffeeb;
@@ -57,9 +58,10 @@ body {
     border: 5px ridge #f89603  
 }
 
-img {
-    height: 250px;
-    width: auto;    
+.recipe {
+    background-color: #f89603;
+    color: #fffeeb;
+    text-align: center;
 }
 
 .recipe img {
@@ -80,4 +82,9 @@ img {
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+#absurd img{
+    height: 700px;
+    width: auto;   
 }
