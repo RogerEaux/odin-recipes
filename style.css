@@ -1,0 +1,52 @@
+body {
+    background-color: lightgreen;
+    background-image: url(./images/background.jpg);
+    margin: 0;
+}
+
+.container {
+    padding-left: 1rem;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, sans-serif;
+}
+
+.title {
+    background-color:#f89603;
+    color: #fffeeb;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    text-align: center;
+}
+
+.subtitle {
+    background-color: #fffeeb;
+    color: #f89603;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.recipe {
+    background-color: #0dd8e6;
+    color: #fffeeb;
+    border-radius: 25px;
+    margin: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}   
+
