@@ -13,7 +13,7 @@ img {
     background-color:#f89603;
     color: #fffeeb;
     font-size: 36px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Brush Script MT", cursive;
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -22,7 +22,7 @@ img {
 .container {
     padding-left: 1rem;
     font-size: 24px;
-    font-family: "Times New Roman", Times, sans-serif;
+    font-family: "Times New Roman", serif;
 }
 
 .subtitle {
