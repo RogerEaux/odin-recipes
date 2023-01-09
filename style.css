@@ -23,6 +23,7 @@ body {
 .subtitle {
     background-color: #fffeeb;
     color: #f89603;
+    font-weight: 700;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -32,10 +33,8 @@ body {
     justify-content: center;
 }
 
-.recipe {
-    background-color: #0038e6;
-    color: #fffeeb;
-    text-align: center;
+.recipe,
+.box {
     border-radius: 25px;
     margin: 60px;
     padding-left: 40px;
@@ -43,16 +42,39 @@ body {
     padding-bottom: 30px;
 }
 
-.recipe img {
+.recipe {
+    background-color: #f89603;
+    color: #fffeeb;
+    text-align: center;
+}
+
+.box {
+    background-color: #fffeeb;
+    color: #f89603;
+    padding-top: 30px;
+    border: 5px ridge #f89603  
+}
+
+img {
     height: 250px;
-    width: auto;
+    width: auto;    
+}
+
+.recipe img {
     border-radius: 25px;
 }   
+
+.dish img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
 
 .bottom {
     background-color:#f89603;
     color: #fffeeb;
-    font-size: 42px;
+    font-size: 36px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
     padding-top: 12px;
