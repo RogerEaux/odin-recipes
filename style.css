@@ -6,18 +6,18 @@ body {
 
 .container {
     padding-left: 1rem;
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Times New Roman", Times, sans-serif;
 }
 
 .title {
     background-color:#f89603;
     color: #fffeeb;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    font-size: 36px;
     font-family: 'Dancing Script', cursive;
-    font-size: 28px;
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .subtitle {
@@ -30,23 +30,31 @@ body {
 .recipes {
     display: flex;
     justify-content: center;
-    margin: auto;
 }
 
 .recipe {
-    background-color: #0dd8e6;
+    background-color: #0038e6;
     color: #fffeeb;
+    text-align: center;
     border-radius: 25px;
-    margin: 75px;
+    margin: 60px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 30px;
-    text-align: center;
-    display: inline-block;
 }
 
-img {
+.recipe img {
     height: 250px;
     width: auto;
+    border-radius: 25px;
 }   
 
+.bottom {
+    background-color:#f89603;
+    color: #fffeeb;
+    font-size: 42px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
